@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Lucy",
+    "speciality": "Maths · English · Physics",
+    "level": "Primary to A-Level",
+    "photo": "lucy-north-wales-tutoring-tutor.jpg",
+    "description": "Clear, supportive explanations and subject help across multiple stages."
+  },
+  {
+    "name": "Jake",
+    "speciality": "Maths · Further Maths · TMUA",
+    "level": "GCSE to university admissions",
+    "photo": "jake-maths-tutor-uk.jpg",
+    "description": "PhD-level mathematical expertise for challenging topics and exam preparation."
+  },
+  {
+    "name": "Mandy",
+    "speciality": "Primary · English · Maths · SEND",
+    "level": "Primary & secondary support",
+    "photo": "mandy-primary-maths-english-tutor-uk.jpg",
+    "description": "Experienced, adaptable support with a patient, individual approach."
+  },
+  {
+    "name": "Bevan",
+    "speciality": "Biology · Chemistry · Maths",
+    "level": "GCSE & A-Level",
+    "photo": "bevan-biology-chemistry-tutor-uk.jpg",
+    "description": "Science and Maths tutoring with an approachable academic style."
+  },
+  {
+    "name": "Caroline",
+    "speciality": "Science · Maths · Entrance Exams",
+    "level": "11+, 13+, GCSE & A-Level",
+    "photo": "caroline-maths-science-tutor-uk.jpg",
+    "description": "Qualified teacher with extensive GCSE and A-Level examiner experience."
+  },
+  {
+    "name": "Usman",
+    "speciality": "Biology · Chemistry · Science",
+    "level": "GCSE & A-Level",
+    "photo": "usman-biology-chemistry-tutor-uk.jpg",
+    "description": "Experienced science tutor with broad exam-board experience."
+  }
+]

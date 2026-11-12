@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% from 'components/sections.html' import callout %}
+{% block content %}
+<section class="inner-hero blog-hero"><div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item active" aria-current="page">Blog</li></ol></nav><span class="small-eyebrow">THE WILTSHIRE TUTORING BLOG</span><h1>Study advice that helps you move forward.</h1><p>Practical guidance for Wiltshire families on GCSE revision, Physics, A-Level Maths, entrance exams and finding the right tutor.</p></div></section>
+<section class="section"><div class="container"><div class="blog-index-grid">{% for post in posts %}<a class="blog-teaser card-link" href="/blog/{{ post.slug }}.html"><span class="blog-topic">{{ post.category }}</span><div class="blog-art blog-art-{{ loop.index }}"><i class="bi {{ ['bi-journal-check','bi-lightning-charge','bi-pencil-square','bi-calculator'][loop.index0] }}" aria-hidden="true"></i></div><div class="blog-content"><p class="blog-meta"><time datetime="{{ post.date }}">12 November 2026</time> · {{ post.read }}</p><h2>{{ post.title }}</h2><p>{{ post.excerpt }}</p><span class="card-text-cta">Read Article</span></div></a>{% endfor %}</div></div></section>
+{{ callout() }}
+{% endblock %}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08065f">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="{{ 'noindex,follow' if page_type=='404' else 'index,follow,max-image-preview:large' }}">
+  <meta name="author" content="Wiltshire Tutoring · North Wales Tutoring Group">
+  <title>{{ meta.title }}</title>
+  <meta name="description" content="{{ meta.description }}">
+  <link rel="canonical" href="https://wiltshiretutors.com{{ path }}">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="Wiltshire Tutoring">
+  <meta property="og:type" content="{{ 'article' if article else 'website' }}">
+  <meta property="og:title" content="{{ meta.title }}">
+  <meta property="og:description" content="{{ meta.description }}">
+  <meta property="og:url" content="https://wiltshiretutors.com{{ path }}">
+  <meta property="og:image" content="https://wiltshiretutors.com/assets/images/og-wiltshire-tutoring.jpg">
+  <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Wiltshire Tutoring - Part of North Wales Tutoring Group">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ meta.title }}">
+  <meta name="twitter:description" content="{{ meta.description }}">
+  <meta name="twitter:image" content="https://wiltshiretutors.com/assets/images/og-wiltshire-tutoring.jpg">
+  <link rel="icon" href="/assets/images/favicon.ico" sizes="any">
+  <link rel="icon" href="/assets/images/favicon-48.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/assets/images/favicon-180.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,500,0,1;9..144,600,0,1;9..144,700,0,1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/icons.css">
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <script type="application/ld+json">{{ schema|tojson }}</script>
+  {% if faq_schema %}<script type="application/ld+json">{{ faq_schema|tojson }}</script>{% endif %}
+</head>
+<body class="page-{{ page_type }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include 'components/navbar.html' %}
+  <main id="main">
+    {% block content %}{% endblock %}
+  </main>
+  {% include 'components/footer.html' %}
+  {% include 'components/cookie.html' %}
+  <a class="whatsapp-float" href="https://wa.me/447480231362?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20Wiltshire%20Tutoring." target="_blank" rel="noopener noreferrer" aria-label="Enquire about Wiltshire Tutoring on WhatsApp" title="Chat with Wiltshire Tutoring on WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+  <script defer src="/vendor/bootstrap.bundle.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+  <script defer src="/js/site.js"></script>
+</body>
+</html>

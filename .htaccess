@@ -1,0 +1,26 @@
+# Wiltshire Tutoring - Hostinger/Apache/LiteSpeed deployment rules.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Canonical domain HTTPS redirect (only on the public host; not staging).
+  RewriteCond %{HTTP_HOST} ^(www\.)?wiltshiretutors\.com$ [NC]
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\.wiltshiretutors\.com$ [NC]
+  RewriteRule ^ https://wiltshiretutors.com%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/x-icon "access plus 6 months"
+</IfModule>

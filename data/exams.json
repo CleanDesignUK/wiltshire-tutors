@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "primary",
+    "name": "Primary School",
+    "title": "Primary tutoring in Wiltshire",
+    "subtitle": "KS1 and KS2 Maths and English tutoring",
+    "intro": "Support foundational confidence, understanding and independent working habits before secondary school.",
+    "topics": [
+      "Reading and comprehension",
+      "Spelling, punctuation and writing",
+      "Number, fractions and problem solving",
+      "Confidence and study habits"
+    ],
+    "angle": "We begin with what the child can already do and identify small achievable next steps. Practical, reassuring lessons help students see their own progress.",
+    "short": "Primary / KS1–KS2"
+  },
+  {
+    "slug": "ks3",
+    "name": "KS3",
+    "title": "KS3 tutoring in Wiltshire",
+    "subtitle": "Year 7, Year 8 and Year 9 online tutors",
+    "intro": "Bridge the move into secondary subjects and secure the knowledge needed for confident GCSE study.",
+    "topics": [
+      "Maths fluency and algebra",
+      "Science knowledge and calculations",
+      "English analysis and writing",
+      "Homework, assessments and organisation"
+    ],
+    "angle": "KS3 can be a valuable time to close small gaps before they become larger problems in Year 10.",
+    "short": "Years 7–9"
+  },
+  {
+    "slug": "sats",
+    "name": "SATs",
+    "title": "SATs tutors in Wiltshire",
+    "subtitle": "Year 6 SATs Maths and English preparation",
+    "intro": "Prepare for Key Stage 2 assessments with approachable, structured practice and a sensible revision plan.",
+    "topics": [
+      "Arithmetic accuracy",
+      "Reasoning problems",
+      "Reading comprehension",
+      "Grammar, punctuation and spelling"
+    ],
+    "angle": "We teach the skills behind question types and help children practise calmly without turning every session into a test.",
+    "short": "Year 6 SATs"
+  },
+  {
+    "slug": "11-plus",
+    "name": "11+",
+    "title": "11 Plus tutors in Wiltshire",
+    "subtitle": "11+ entrance exam and grammar school preparation",
+    "intro": "Build strong reasoning, English and Maths skills and practise unfamiliar question formats.",
+    "topics": [
+      "Verbal reasoning",
+      "Non-verbal reasoning",
+      "English comprehension",
+      "Maths problem-solving and timing"
+    ],
+    "angle": "Entrance assessment formats can vary between schools. We ask which school or assessment you are preparing for before planning lessons.",
+    "short": "11 Plus / Entrance Exams"
+  },
+  {
+    "slug": "13-plus",
+    "name": "13+",
+    "title": "13 Plus tutors in Wiltshire",
+    "subtitle": "13+ common entrance and school entrance support",
+    "intro": "Prepare for school-specific 13+ tests with individual subject support and exam practice.",
+    "topics": [
+      "English and Maths",
+      "Science where required",
+      "Written responses",
+      "School-specific practice"
+    ],
+    "angle": "Our tutoring is tailored to the subjects and assessment style set by the target school; requirements are checked with the family.",
+    "short": "13 Plus / Entrance Exams"
+  },
+  {
+    "slug": "gcse",
+    "name": "GCSE",
+    "title": "GCSE tutors in Wiltshire",
+    "subtitle": "GCSE Maths, English, Physics, Chemistry, Biology and more",
+    "intro": "Get focused GCSE subject support, targeted revision and exam-style practice for Year 10 and Year 11.",
+    "topics": [
+      "Topic gap analysis",
+      "Higher and Foundation tiers",
+      "Exam-board past papers",
+      "Revision and confidence building"
+    ],
+    "angle": "We tailor lessons to AQA, Edexcel, OCR, Eduqas, WJEC and other specifications rather than giving every student the same worksheet.",
+    "short": "GCSE / Years 10–11"
+  },
+  {
+    "slug": "igcse",
+    "name": "IGCSE",
+    "title": "IGCSE tutors in Wiltshire",
+    "subtitle": "International GCSE Maths, English and Science tutoring",
+    "intro": "Prepare for Pearson Edexcel and Cambridge International IGCSEs with syllabus-matched teaching.",
+    "topics": [
+      "Core subject knowledge",
+      "Specification coverage",
+      "Exam questions and timing",
+      "Written solutions and feedback"
+    ],
+    "angle": "We confirm the exact qualification and syllabus code before recommending suitable study materials.",
+    "short": "IGCSE"
+  },
+  {
+    "slug": "a-level",
+    "name": "A-Level",
+    "title": "A-Level tutors in Wiltshire",
+    "subtitle": "A-Level Maths, Physics, Chemistry, Biology, English and more",
+    "intro": "Develop deeper subject understanding and exam technique for Year 12 and Year 13.",
+    "topics": [
+      "Advanced subject knowledge",
+      "Past papers and mark schemes",
+      "Essay writing and problem solving",
+      "University preparation where relevant"
+    ],
+    "angle": "A-Level lessons focus on the depth, independence and precision expected at this stage, with tutors selected by subject and specification.",
+    "short": "A-Level / Sixth Form"
+  },
+  {
+    "slug": "ucat",
+    "name": "UCAT",
+    "title": "UCAT tutors in Wiltshire",
+    "subtitle": "UCAT medical and dental admissions test preparation",
+    "intro": "Build familiarity with the UCAT sections, efficient decision-making and timed test practice.",
+    "topics": [
+      "Verbal reasoning",
+      "Decision making",
+      "Quantitative reasoning",
+      "Situational judgement and timing"
+    ],
+    "angle": "UCAT content and scoring can change. We use the current official test specifications and practise strategies appropriate to the applicant.",
+    "short": "Medical Admissions"
+  },
+  {
+    "slug": "tmua",
+    "name": "TMUA",
+    "title": "TMUA tutors in Wiltshire",
+    "subtitle": "TMUA mathematics admissions test preparation",
+    "intro": "Practise mathematical reasoning, algebraic fluency and unfamiliar problems under timed conditions.",
+    "topics": [
+      "Advanced school mathematics",
+      "Logical reasoning",
+      "Proof and justification",
+      "Timed multiple-choice strategy"
+    ],
+    "angle": "A TMUA tutor helps students translate strong classroom Maths knowledge into fast, careful mathematical thinking.",
+    "short": "University Maths Admissions"
+  },
+  {
+    "slug": "university",
+    "name": "University",
+    "title": "University Maths tutors online",
+    "subtitle": "University-level Maths and first-year quantitative support",
+    "intro": "Get tailored help with demanding mathematical techniques and core university modules.",
+    "topics": [
+      "Calculus and analysis",
+      "Linear algebra",
+      "Statistics and probability",
+      "Methods and independent learning"
+    ],
+    "angle": "Tell us the university module or topic and we can check specialist tutor availability.",
+    "short": "Higher Education"
+  }
+]

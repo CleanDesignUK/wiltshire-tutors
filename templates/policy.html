@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="inner-hero policy-hero"><div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item active" aria-current="page">{{ heading }}</li></ol></nav><span class="small-eyebrow">WILTSHIRE TUTORING</span><h1>{{ heading }}</h1><p>{{ intro }}</p></div></section>
+<section class="section policy-main"><div class="container"><article class="policy-content policy-narrow">{% for section in sections %}<section><h2>{{ section.heading }}</h2>{% for paragraph in section.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</section>{% endfor %}<p>Questions? Email <a href="mailto:wiltshire@nwttutoring.com">wiltshire@nwttutoring.com</a>.</p></article></div></section>
+{% endblock %}

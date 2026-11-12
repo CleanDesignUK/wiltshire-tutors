@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "swindon",
+    "name": "Swindon",
+    "lead": "Swindon families looking for flexible tuition often want help fitting GCSE or A-Level revision around busy school weeks and activities.",
+    "service": "We offer online one-to-one Maths, Physics, Chemistry, Biology and English tutoring for learners across Swindon, with tutor matching based on subject, stage and exam board.",
+    "approach": "From early secondary Maths to A-Level Physics calculations, support can focus on a single topic, a longer revision programme or a particular assessment.",
+    "nearby": "Swindon, Wroughton, Highworth and nearby communities"
+  },
+  {
+    "slug": "salisbury",
+    "name": "Salisbury",
+    "lead": "For families around Salisbury, we can support both school curriculum tuition and preparation for school entrance assessments.",
+    "service": "Our online tutors offer GCSE Maths and Science, A-Level subjects, English, SATs and school-specific 11+ or 13+ preparation.",
+    "approach": "For entrance exams, we check the target school’s requirements rather than assuming every assessment uses the same papers.",
+    "nearby": "Salisbury, Wilton, Amesbury and surrounding villages"
+  },
+  {
+    "slug": "trowbridge",
+    "name": "Trowbridge",
+    "lead": "Students in Trowbridge can benefit from consistent, focused sessions without the additional travel time of in-person tuition.",
+    "service": "We match learners with online tutors in GCSE Maths, English, combined or separate Science, and A-Level subjects including Maths and Physics.",
+    "approach": "Sessions can be built around school topic lists, mock-paper feedback or the areas a student finds hardest to understand.",
+    "nearby": "Trowbridge, Bradford-on-Avon, Westbury and nearby areas"
+  },
+  {
+    "slug": "chippenham",
+    "name": "Chippenham",
+    "lead": "Online tuition gives Chippenham families access to specialist subjects and exam-board knowledge without a long journey.",
+    "service": "We support KS3 confidence, GCSE exam preparation and A-Level Maths, Further Maths, Chemistry and Physics through live lessons.",
+    "approach": "A tutor can use a diagnostic conversation, examples and past papers to agree useful priorities for each student.",
+    "nearby": "Chippenham, Corsham, Calne and surrounding villages"
+  },
+  {
+    "slug": "devizes",
+    "name": "Devizes",
+    "lead": "In and around Devizes, personalised online lessons can be particularly useful for families balancing study with activities and travel across rural Wiltshire.",
+    "service": "Our tutors support primary learning, GCSE core subjects and A-Level Maths and Sciences, with flexible pay-as-you-go booking.",
+    "approach": "We explain difficult topics in manageable stages, then return to independent exam-style practice to check that learning is secure.",
+    "nearby": "Devizes, Market Lavington, Pewsey and surrounding communities"
+  },
+  {
+    "slug": "melksham",
+    "name": "Melksham",
+    "lead": "For Melksham pupils, the right tutor may be someone who understands a specific exam specification or helps rebuild confidence after a difficult school topic.",
+    "service": "We offer online Maths, English, Physics, Chemistry, Biology and other subject tutoring from primary to A-Level.",
+    "approach": "We focus on the student’s actual work and goals, whether that is improving written explanations, strengthening number skills or preparing for mocks.",
+    "nearby": "Melksham, Bowerhill and west Wiltshire"
+  },
+  {
+    "slug": "marlborough",
+    "name": "Marlborough",
+    "lead": "We help Marlborough students prepare for demanding schoolwork and assessments through dedicated one-to-one online sessions.",
+    "service": "Tutoring covers GCSE and A-Level Maths and Sciences, English, humanities and admissions Maths such as TMUA where a suitable specialist is available.",
+    "approach": "Tutors can help with deepening subject knowledge, planned revision and the step-by-step reasoning needed for unfamiliar questions.",
+    "nearby": "Marlborough, Pewsey and surrounding eastern Wiltshire"
+  },
+  {
+    "slug": "warminster",
+    "name": "Warminster",
+    "lead": "Our online tuition supports Warminster students who want to strengthen core skills or prepare more confidently for exams.",
+    "service": "Families can enquire about KS3, GCSE Maths and English, Biology, Chemistry, Physics, A-Level and entrance-exam support.",
+    "approach": "We establish the qualification first and choose materials that match the exam board, topic and learner’s current working level.",
+    "nearby": "Warminster, Westbury, Mere and nearby villages"
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "slug": "maths",
+    "name": "Maths",
+    "title": "Maths tutor in Wiltshire",
+    "subtitle": "GCSE Maths, A-Level Maths, KS3 and primary numeracy",
+    "intro": "Build confidence with algebra, fractions, geometry, statistics and problem-solving, then apply those skills to exam-style questions.",
+    "topics": [
+      "Fractions and number fluency",
+      "Algebra and equations",
+      "Graphs, geometry and trigonometry",
+      "Past papers and exam technique"
+    ],
+    "angle": "From a tricky Year 7 topic to A-Level calculus, our Maths tutors work at the learner’s pace and use carefully selected questions to check understanding.",
+    "short": "Maths"
+  },
+  {
+    "slug": "physics",
+    "name": "Physics",
+    "title": "Physics tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level Physics with specialist online support",
+    "intro": "Make difficult concepts easier to visualise, practise calculations and build confidence with practical and written exam questions.",
+    "topics": [
+      "Forces and motion",
+      "Electricity and circuits",
+      "Waves, energy and fields",
+      "Equations, units and practical questions"
+    ],
+    "angle": "Our Physics tutoring combines visual explanations with the mathematical steps needed for stronger exam answers, whether the student studies AQA, OCR or Edexcel.",
+    "short": "Physics"
+  },
+  {
+    "slug": "chemistry",
+    "name": "Chemistry",
+    "title": "Chemistry tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level Chemistry tuition",
+    "intro": "Learn the reasons behind reactions and calculations rather than relying on memorised steps alone.",
+    "topics": [
+      "Atomic structure and bonding",
+      "Moles, quantities and calculations",
+      "Organic chemistry",
+      "Rates, equilibrium and analytical techniques"
+    ],
+    "angle": "We help learners connect chemical models to exam questions and focus revision on the topics that cause the most uncertainty.",
+    "short": "Chemistry"
+  },
+  {
+    "slug": "biology",
+    "name": "Biology",
+    "title": "Biology tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level Biology tuition",
+    "intro": "Organise complex biological knowledge and practise precise scientific explanations for mark-scheme questions.",
+    "topics": [
+      "Cells and transport",
+      "Genetics and inheritance",
+      "Physiology and homeostasis",
+      "Ecology, experiments and data"
+    ],
+    "angle": "Sessions bring diagrams, retrieval practice and exam-style extended answers together so that students can explain concepts accurately.",
+    "short": "Biology"
+  },
+  {
+    "slug": "english",
+    "name": "English Language",
+    "title": "English Language tutor in Wiltshire",
+    "subtitle": "KS3, GCSE and IGCSE English Language",
+    "intro": "Develop comprehension, analytical writing, vocabulary, structure and confidence with unseen texts.",
+    "topics": [
+      "Reading comprehension",
+      "Language and structure analysis",
+      "Creative and transactional writing",
+      "Timed answers and feedback"
+    ],
+    "angle": "Lessons combine close reading with practical writing feedback, including how to develop paragraphs and meet assessment objectives.",
+    "short": "English"
+  },
+  {
+    "slug": "english-literature",
+    "name": "English Literature",
+    "title": "English Literature tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level English Literature",
+    "intro": "Turn knowledge of texts into well-supported arguments with close analysis, quotations and essay planning.",
+    "topics": [
+      "Shakespeare and drama",
+      "Poetry comparison",
+      "Modern and nineteenth-century texts",
+      "Essay structure and textual evidence"
+    ],
+    "angle": "Tutors help learners move beyond plot summary towards clear interpretations and securely supported analysis.",
+    "short": "English Literature"
+  },
+  {
+    "slug": "further-maths",
+    "name": "Further Maths",
+    "title": "Further Maths tutor in Wiltshire",
+    "subtitle": "GCSE Further Maths, A-Level Further Maths and stretch support",
+    "intro": "Work through advanced algebra, calculus, mechanics and proof with a specialist tutor.",
+    "topics": [
+      "Complex numbers",
+      "Further calculus and vectors",
+      "Matrices and linear algebra",
+      "Mechanics, statistics and proof"
+    ],
+    "angle": "Suitable for ambitious learners who want deeper understanding of challenging mathematics or focused Further Maths exam preparation.",
+    "short": "Further Maths"
+  },
+  {
+    "slug": "economics",
+    "name": "Economics",
+    "title": "Economics tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level Economics tuition",
+    "intro": "Understand economic models and improve the analysis, evaluation and structure of exam responses.",
+    "topics": [
+      "Supply, demand and markets",
+      "Market failure",
+      "Macroeconomic objectives",
+      "Extended evaluation and essays"
+    ],
+    "angle": "Tutor-led discussion and structured essay work help make economic ideas easier to explain and apply.",
+    "short": "Economics"
+  },
+  {
+    "slug": "business",
+    "name": "Business Studies",
+    "title": "Business Studies tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level Business tuition",
+    "intro": "Apply business concepts to case studies while developing calculated, justified exam answers.",
+    "topics": [
+      "Finance and cash flow",
+      "Marketing and operations",
+      "Human resources",
+      "Case-study evaluation"
+    ],
+    "angle": "We focus on applying knowledge to the context of each question and explaining why a recommendation is justified.",
+    "short": "Business Studies"
+  },
+  {
+    "slug": "computer-science",
+    "name": "Computer Science",
+    "title": "Computer Science tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level Computer Science tuition",
+    "intro": "Strengthen programming confidence, computational thinking and theoretical knowledge.",
+    "topics": [
+      "Python and algorithms",
+      "Data representation",
+      "Networks and cybersecurity",
+      "Logic, trace tables and pseudocode"
+    ],
+    "angle": "Sessions can mix code walkthroughs with theory practice and exam-style questions, matched to the learner’s syllabus.",
+    "short": "Computer Science"
+  },
+  {
+    "slug": "history",
+    "name": "History",
+    "title": "History tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level History tuition",
+    "intro": "Develop strong historical knowledge, source evaluation and well-structured essays.",
+    "topics": [
+      "Chronology and significance",
+      "Source utility and interpretation",
+      "Causation and change",
+      "Evidence-based writing"
+    ],
+    "angle": "History tuition helps students construct a convincing line of argument rather than simply memorising facts.",
+    "short": "History"
+  },
+  {
+    "slug": "geography",
+    "name": "Geography",
+    "title": "Geography tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level Geography tuition",
+    "intro": "Interpret maps, data, case studies and geographical processes confidently.",
+    "topics": [
+      "Physical landscapes",
+      "Human geography",
+      "Fieldwork and data skills",
+      "Case-study answers"
+    ],
+    "angle": "Tutors support the balance of knowledge, specific examples and exam technique needed for strong Geography answers.",
+    "short": "Geography"
+  },
+  {
+    "slug": "french",
+    "name": "French",
+    "title": "French tutor in Wiltshire",
+    "subtitle": "KS3, GCSE and A-Level French tuition",
+    "intro": "Improve listening, speaking, grammar, reading and written communication with personalised language practice.",
+    "topics": [
+      "Speaking confidence",
+      "Tenses and grammar",
+      "Reading and listening",
+      "Exam conversation practice"
+    ],
+    "angle": "Interactive language lessons give students regular chances to use new vocabulary and correct common mistakes.",
+    "short": "French"
+  },
+  {
+    "slug": "spanish",
+    "name": "Spanish",
+    "title": "Spanish tutor in Wiltshire",
+    "subtitle": "KS3, GCSE and A-Level Spanish tuition",
+    "intro": "Build practical language skills and fluency while preparing for school assessments and exams.",
+    "topics": [
+      "Speaking and pronunciation",
+      "Core grammar and tenses",
+      "Listening and reading",
+      "Writing and translation"
+    ],
+    "angle": "Tutors adapt speaking practice and exercises to current school topics and exam-board requirements.",
+    "short": "Spanish"
+  },
+  {
+    "slug": "psychology",
+    "name": "Psychology",
+    "title": "Psychology tutor in Wiltshire",
+    "subtitle": "GCSE and A-Level Psychology tuition",
+    "intro": "Learn theories, research methods and the structure of clear evaluative answers.",
+    "topics": [
+      "Research methods",
+      "Core approaches",
+      "Studies and applications",
+      "Evaluation and essay writing"
+    ],
+    "angle": "Lessons help learners connect studies, methodology and evaluation so answers demonstrate more than recall.",
+    "short": "Psychology"
+  },
+  {
+    "slug": "politics",
+    "name": "Politics",
+    "title": "Politics tutor in Wiltshire",
+    "subtitle": "A-Level Politics tuition",
+    "intro": "Strengthen understanding of UK and comparative politics and develop balanced evaluative arguments.",
+    "topics": [
+      "UK government and politics",
+      "Political ideologies",
+      "Comparative topics",
+      "Essay plans and evaluation"
+    ],
+    "angle": "Tutoring focuses on explaining competing arguments with evidence and responding directly to the question.",
+    "short": "Politics"
+  },
+  {
+    "slug": "welsh",
+    "name": "Welsh",
+    "title": "Welsh language tutor online",
+    "subtitle": "Welsh language support through the wider NWT Group",
+    "intro": "Learn Welsh language skills through a group experienced in Welsh-medium tutoring, subject to tutor availability.",
+    "topics": [
+      "Vocabulary and grammar",
+      "Reading and writing",
+      "Speaking confidence",
+      "Exam preparation"
+    ],
+    "angle": "Our wider group has experience with Welsh-medium learning. Ask us about the particular Welsh qualification and level you need.",
+    "short": "Welsh"
+  }
+]

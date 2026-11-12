@@ -1,0 +1,15 @@
+{% macro enquiry_form(context='general', compact=False) -%}
+<form class="enquiry-form {{ 'form-compact' if compact else '' }}" method="POST" action="https://api.web3forms.com/submit" data-enquiry-form>
+  <input type="hidden" name="access_key" value="476685a4-53cf-4a10-953e-fbb901fdada7">
+  <input type="hidden" name="subject" value="Wiltshire Tutoring - New {{ context|replace('-', ' ')|title }} Enquiry">
+  <input type="hidden" name="from_name" value="Wiltshire Tutoring Website">
+  <input type="hidden" name="page" value="{{ path }}">
+  <div class="botcheck" aria-hidden="true"><input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></div>
+  <div class="form-field"><label for="{{ context }}-name">Your name</label><input id="{{ context }}-name" name="name" type="text" placeholder="Your name" autocomplete="name" minlength="2" maxlength="100" required></div>
+  <div class="form-split"><div class="form-field"><label for="{{ context }}-email">Email address</label><input id="{{ context }}-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" maxlength="150" required></div><div class="form-field"><label for="{{ context }}-phone">Phone number</label><input id="{{ context }}-phone" name="phone" type="tel" placeholder="Your phone number" autocomplete="tel" maxlength="30" required></div></div>
+  <div class="form-field"><label for="{{ context }}-message">What support do you need?</label><textarea id="{{ context }}-message" name="message" rows="{{ '2' if compact else '4' }}" maxlength="3500" minlength="10" placeholder="e.g. Year 11 GCSE Maths, AQA, looking for weekly online lessons" required></textarea></div>
+  <button type="submit" class="btn btn-primary-custom form-submit">Find My Tutor</button>
+  <p class="form-note">No obligation to book. We will only use your details to respond to your enquiry. <a href="/privacy-policy.html">Privacy Policy</a>.</p>
+  <p class="form-feedback visually-hidden" role="status" aria-live="polite"></p>
+</form>
+{%- endmacro %}

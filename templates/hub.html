@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% from 'components/sections.html' import section_head, faq_section, callout, rail_controls %}
+{% block content %}
+<section class="inner-hero hub-hero"><div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item active" aria-current="page">{{ hub_name }}</li></ol></nav><span class="small-eyebrow">{{ label }}</span><h1>{{ heading }}</h1><p>{{ lead }}</p><div class="inner-actions"><a class="btn btn-primary-custom" href="/contact.html">Find My Tutor</a><a class="btn btn-outline-custom" href="/pricing.html">See Tuition Prices</a></div></div></section>
+<section class="section hub-results"><div class="container"><div class="section-head"><p class="eyebrow">{{ label }}</p><h2>{{ grid_heading }}</h2><p>{{ grid_intro }}</p></div>
+  {% if mode=='areas' %}<div class="areas-overview"><p>Online lessons are available in towns, smaller communities and rural parts of Wiltshire. We do not claim a walk-in centre or a physical office in these locations.</p></div>{% endif %}
+  <div class="hub-card-grid">{% for item in items %}<a class="hub-card card-link" href="/{{ mode }}/{{ item.slug }}.html"><span class="hub-card-number">{{ '%02d' % loop.index }}</span><h3>{{ item.name }}{{ ' Tutoring' if mode!='areas' else ' Tutors' }}</h3><p>{{ item.intro if mode=='exams' else (item.lead if mode=='areas' else item.subtitle) }}</p><span class="card-text-cta">Learn More</span></a>{% endfor %}</div>
+  {% if mode=='subjects' %}<div class="extra-subjects"><h3>More subjects we can help with</h3><p>Availability is confirmed for the relevant qualification and level when you enquire.</p><div class="subject-chips">{% for s in extra_subjects %}<a href="/contact.html?subject={{ s|urlencode }}">{{ s }}</a>{% endfor %}</div></div>{% endif %}
+  {% if mode=='areas' %}<div class="extra-subjects"><h3>Also serving families across Wiltshire</h3><p>Live online tuition is available wherever you have a reliable internet connection.</p><div class="subject-chips">{% for t in other_towns %}<span>{{ t }}</span>{% endfor %}</div></div>{% endif %}
+</div></section>
+<section class="section split-value"><div class="container"><div class="row g-5 align-items-center"><div class="col-lg-6"><div class="split-photo"><img src="{{ split_image }}" width="680" height="540" alt="Online tutoring for Wiltshire students" loading="lazy"></div></div><div class="col-lg-6"><p class="eyebrow">PERSONALISED LEARNING</p><h2>{{ section_title }}</h2><p>{{ section_body }}</p><ul class="checked-list"><li>Clear, individual learning goals</li><li>Lessons with experienced UK tutors</li><li>Flexible online scheduling</li><li>Support for all major UK exam boards</li></ul><a class="btn btn-primary-custom" href="/contact.html">Discuss Your Requirements</a></div></div></div></section>
+{{ faq_section(faqs) }}
+{{ callout() }}
+{% endblock %}
