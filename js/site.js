@@ -79,7 +79,7 @@
         card.hidden = !visible;
         if (visible) shown++;
       });
-      if (count) count.textContent = `${shown} tutor${shown === 1 ? '' : 's'} shown. Ask us about current availability.`;
+      if (count) count.textContent = shown ? `${shown} of ${cards.length} listed tutor${cards.length === 1 ? '' : 's'} shown. Ask us about current availability or tutors not listed.` : `No listed tutors match these filters. Our wider team may still be able to help; please enquire.`;
     };
     [search, level, subject].forEach(control => control?.addEventListener('input', filter));
     filter();

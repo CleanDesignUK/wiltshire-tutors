@@ -13,6 +13,10 @@ SITE='https://wiltshiretutors.com'
 
 def load(name):return json.loads((DATA/f'{name}.json').read_text(encoding='utf-8'))
 subjects=load('subjects');exams=load('exams');areas=load('areas');all_towns=load('all-towns');extra_subjects=load('extra-subjects');testimonials=load('testimonials');tutors=load('tutors');posts=load('blog-posts')
+# Homepage tutor cards are selected from the same curated directory list.
+featured_tutor_names=['Jake','Lucy','Usman','Wahida','Andy','Mandy','May','Madeleine','Jordan','Thomas']
+featured_tutors=[next((t for t in tutors if t['name']==name), None) for name in featured_tutor_names]
+featured_tutors=[t for t in featured_tutors if t is not None]
 env=Environment(loader=FileSystemLoader([str(ROOT/'templates'),str(ROOT)]),autoescape=select_autoescape(['html','xml']),trim_blocks=True,lstrip_blocks=True)
 subject_icons={'maths':'bi-calculator','physics':'bi-lightning-charge','chemistry':'bi-droplet-half','biology':'bi-flower2','english':'bi-pencil-square','english-literature':'bi-book','further-maths':'bi-infinity','economics':'bi-graph-up-arrow','business':'bi-briefcase','computer-science':'bi-code-slash','history':'bi-hourglass-split','geography':'bi-globe-europe-africa','french':'bi-translate','spanish':'bi-chat-quote','psychology':'bi-person-heart','politics':'bi-bank','welsh':'bi-chat-dots'}
 
@@ -50,7 +54,7 @@ built=[]
 def render(template,path,title,description,page_type,crumbs=None,faqs=None,service=None,article=None,**kwargs):
     if not path.startswith('/'):raise ValueError(path)
     if not crumbs:crumbs=[('Home','/'),(title.split('|')[0].strip(),path)]
-    context={'path':path,'meta':{'title':title,'description':description},'page_type':page_type,'article':bool(article),'schema':build_schema(path,title,description,crumbs,service=service,article=article),'faq_schema':faq_schema(faqs),'faqs':faqs or [],'subjects':subjects,'nav_subjects':[x for x in subjects if x['slug'] in ('maths','physics','chemistry','biology','english','english-literature','further-maths','economics','business','computer-science','history','geography','french','spanish')], 'exams':exams,'areas':areas,'testimonials':testimonials,'tutors':tutors,'extra_subjects':extra_subjects,'all_towns':all_towns,'posts':posts,'subject_icons':subject_icons,**kwargs}
+    context={'path':path,'meta':{'title':title,'description':description},'page_type':page_type,'article':bool(article),'schema':build_schema(path,title,description,crumbs,service=service,article=article),'faq_schema':faq_schema(faqs),'faqs':faqs or [],'subjects':subjects,'nav_subjects':[x for x in subjects if x['slug'] in ('maths','physics','chemistry','biology','english','english-literature','further-maths','economics','business','computer-science','history','geography','french','spanish')], 'exams':exams,'areas':areas,'testimonials':testimonials,'tutors':tutors,'featured_tutors':featured_tutors,'extra_subjects':extra_subjects,'all_towns':all_towns,'posts':posts,'subject_icons':subject_icons,**kwargs}
     content=env.get_template(template).render(**context)
     target=ROOT/('index.html' if path=='/' else path.lstrip('/'))
     target.parent.mkdir(parents=True,exist_ok=True)

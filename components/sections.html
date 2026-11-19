@@ -13,6 +13,23 @@
 {% macro faq_section(faqs) -%}
 <section class="section faq-section"><div class="container"><div class="row g-5"><div class="col-lg-4"><div class="section-head"><p class="eyebrow">HELPFUL ANSWERS</p><h2>Questions families ask.</h2><p>Need something specific? Our team can help with subject, exam board, level and availability.</p><a class="btn btn-outline-custom mt-2" href="/contact.html">Ask Our Team</a></div></div><div class="col-lg-8"><div class="accordion custom-accordion" id="questions-{{ page_type }}">{% for q in faqs %}<div class="accordion-item"><h3 class="accordion-header" id="question-heading-{{ loop.index }}"><button class="accordion-button {{ '' if loop.first else 'collapsed' }}" type="button" data-bs-toggle="collapse" data-bs-target="#answer-{{ page_type }}-{{ loop.index }}" aria-expanded="{{ 'true' if loop.first else 'false' }}" aria-controls="answer-{{ page_type }}-{{ loop.index }}">{{ q.q }}</button></h3><div id="answer-{{ page_type }}-{{ loop.index }}" class="accordion-collapse collapse {{ 'show' if loop.first else '' }}" data-bs-parent="#questions-{{ page_type }}"><div class="accordion-body">{{ q.a }}</div></div></div>{% endfor %}</div></div></div></div></section>
 {%- endmacro %}
-{% macro tutor_rail(tutors) -%}
-<section class="section tutor-section"><div class="container"><div class="heading-with-arrows"><div class="section-head"><p class="eyebrow">A PERSONAL MATCH</p><h2>Meet some of our tutors.</h2><p>Examples of tutors in our wider network. Your recommendation depends on the subject, level and current availability.</p></div>{{ rail_controls('tutor-rail') }}</div><div class="scroll-rail tutor-rail" id="tutor-rail" tabindex="0" aria-label="Tutor examples">{% for t in tutors %}<a class="tutor-card card-link" href="/contact.html?subject={{ t.speciality|urlencode }}" aria-label="Enquire about {{ t.name }} tutoring"><div class="tutor-photo"><img src="/assets/images/{{ t.photo }}" alt="{{ t.name }}, {{ t.speciality }} tutor in the NWT network" loading="lazy" width="460" height="380"></div><div class="tutor-content"><span class="mini-pill">{{ t.level }}</span><h3>{{ t.name }}</h3><strong>{{ t.speciality }}</strong><p>{{ t.description }}</p><span class="card-text-cta">Enquire About Lessons</span></div></a>{% endfor %}</div><p class="small-note mt-3">Tutor profiles shown are from the parent tutoring network; we confirm individual suitability and availability when you enquire.</p></div></section>
+{% macro tutor_rail(tutors, directory_total) -%}
+<section class="section tutor-section"><div class="container">
+  <div class="heading-with-arrows">
+    <div class="section-head"><p class="eyebrow">A PERSONAL MATCH</p><h2>Meet some of our online tutors.</h2>
+      <p>Meet a selection from our {{ directory_total }} listed tutor profiles. This is not our complete tutoring team; we also help families find subject specialists who are not featured here.</p>
+    </div>
+    {{ rail_controls('tutor-rail') }}
+  </div>
+  <div class="scroll-rail tutor-rail" id="tutor-rail" tabindex="0" aria-label="Featured online tutors">
+    {% for t in tutors %}
+    <a class="tutor-card card-link" href="/contact.html?tutor={{ t.name|urlencode }}" aria-label="Ask about online tutoring with {{ t.name }}">
+      <div class="tutor-photo"><img src="{{ t.photo if t.photo.startswith('https://') else '/assets/images/' ~ t.photo }}" alt="{{ t.name }}, online tutor from the wider NWT Group network" loading="lazy" decoding="async" width="480" height="480"></div>
+      <div class="tutor-content"><span class="mini-pill">{{ t.level }}</span><h3>{{ t.name }}</h3><strong>{{ t.speciality }}</strong><p>{{ t.description }}</p><span class="card-text-cta">Enquire About {{ t.name }}</span></div>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="after-section"><a class="btn btn-primary-custom" href="/our-tutors.html">Browse {{ directory_total }} Tutor Profiles</a> <a class="btn btn-outline-custom" href="/contact.html">Find a Tutor for Your Child</a></div>
+  <p class="small-note mt-3">The {{ directory_total }} directory profiles are a selection from our wider UK network, not everyone available. We confirm current tutor suitability and lesson rates when you enquire.</p>
+</div></section>
 {%- endmacro %}

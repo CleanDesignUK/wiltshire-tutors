@@ -7,32 +7,11 @@
     "description": "Biochemistry student at the University of Sheffield teaching Biology, Chemistry and Combined Science."
   },
   {
-    "name": "Tomos",
-    "speciality": "Maths · Welsh-medium · WJEC",
-    "level": "GCSE · A-Level",
-    "photo": "https://northwalestutoring.com/images/tomos-welsh-maths-tutor-uk.jpg",
-    "description": "Cardiff University Mathematics student offering WJEC Maths tutoring in Welsh or English."
-  },
-  {
-    "name": "Arianwen",
-    "speciality": "Biology · Chemistry · WJEC",
-    "level": "KS3 · GCSE",
-    "photo": "https://northwalestutoring.com/images/arianwen-biology-chemistry-tutor-uk.jpg",
-    "description": "Friendly WJEC Biology and Chemistry support for KS3 and GCSE students."
-  },
-  {
     "name": "Georgia",
     "speciality": "Primary · 11+ · Maths · Biology · Chemistry",
     "level": "Primary · KS3 · GCSE · A-Level",
     "photo": "https://northwalestutoring.com/images/georgia-science-tutor-uk.jpg",
     "description": "Cardiff medical student supporting 11+, Primary, Foundation GCSE Maths, Biology and Chemistry."
-  },
-  {
-    "name": "Bevan",
-    "speciality": "Biology · Chemistry · Maths · WJEC",
-    "level": "GCSE · A-Level",
-    "photo": "bevan-biology-chemistry-tutor-uk.jpg",
-    "description": "Cardiff University medical student specialising in WJEC Biology, Chemistry and Maths."
   },
   {
     "name": "Muskan",
@@ -77,25 +56,11 @@
     "description": "Qualified Science teacher with QTS and more than seven years of tutoring experience."
   },
   {
-    "name": "Shannon",
-    "speciality": "English · Welsh · Spanish · MFL · Primary",
-    "level": "Primary · KS3 · GCSE · Adults",
-    "photo": "https://northwalestutoring.com/images/shannon-english-welsh-tutor-uk.jpg",
-    "description": "Qualified English, Welsh and languages teacher with additional learning needs experience."
-  },
-  {
     "name": "Jillian",
     "speciality": "Primary · Maths · English · Biology · Chemistry",
     "level": "Primary · KS3 · GCSE",
     "photo": "https://northwalestutoring.com/images/jillian-primary-tutor-uk.jpg",
     "description": "Patient, personalised Primary, Maths, English and Science tutor with 13 years of experience."
-  },
-  {
-    "name": "Siôn",
-    "speciality": "Maths · Welsh-medium · WJEC",
-    "level": "Primary · KS3 · GCSE · A-Level",
-    "photo": "https://northwalestutoring.com/images/sion-welsh-maths-tutor-uk.jpg",
-    "description": "Welsh-medium Maths tutor with over 11 years of experience and approximately 3,400 tutoring hours."
   },
   {
     "name": "Solomon",
@@ -168,13 +133,6 @@
     "description": "Former Head of Physics with over 27 years of classroom experience and interactive teaching."
   },
   {
-    "name": "Siân",
-    "speciality": "Primary · Welsh · Maths · English · Health & Social Care",
-    "level": "Primary · GCSE · Children & Adults",
-    "photo": "https://northwalestutoring.com/images/sian-primary-and-welsh-tutor-uk.jpg",
-    "description": "Qualified Welsh-speaking Primary teacher and WJEC Health and Social Care examiner."
-  },
-  {
     "name": "Geoffrey",
     "speciality": "Physics · Combined Science · Maths",
     "level": "KS3 · GCSE · A-Level",
@@ -196,39 +154,11 @@
     "description": "Primary teacher providing creative, structured Maths, English and SEN support."
   },
   {
-    "name": "Zainab",
-    "speciality": "Maths · Biology · Chemistry · Physics · Combined Science",
-    "level": "GCSE · A-Level",
-    "photo": "https://northwalestutoring.com/images/zainab-science-tutor-uk.jpg",
-    "description": "Medical student with over 700 tutoring hours teaching Maths and Science."
-  },
-  {
-    "name": "Patrick",
-    "speciality": "English · Welsh-medium",
-    "level": "Secondary English",
-    "photo": "https://northwalestutoring.com/images/patrick-ks3-english-tutor-uk.jpg",
-    "description": "Secondary English tutor and Welsh speaker teaching through Welsh or English."
-  },
-  {
     "name": "Ffion",
     "speciality": "Health & Social Care · Childcare · Child Development · Travel & Tourism · Sociology",
     "level": "GCSE · A-Level · Level 2 · Level 3",
     "photo": "https://northwalestutoring.com/images/ffion-health-social-care-tutor-uk.jpg",
     "description": "Experienced examiner covering Health and Social Care, Childcare and vocational subjects."
-  },
-  {
-    "name": "Bryan",
-    "speciality": "English · Welsh · ESOL / EFL · Humanities",
-    "level": "Primary · KS3 · GCSE · A-Level · Adults",
-    "photo": "https://northwalestutoring.com/images/bryan-welsh-english-tutor-uk.jpg",
-    "description": "TEFL-qualified English and Welsh tutor with more than 12 years of experience."
-  },
-  {
-    "name": "Donna",
-    "speciality": "Primary · KS1 · Maths · English · Phonics",
-    "level": "Primary · Nursery to Year 6",
-    "photo": "https://northwalestutoring.com/images/donna-primary-tutor-uk.jpg",
-    "description": "Qualified Primary teacher with 25 years of classroom experience, specialising in phonics and literacy."
   },
   {
     "name": "Sarah",
@@ -243,12 +173,5 @@
     "level": "KS3 · GCSE · A-Level",
     "photo": "https://northwalestutoring.com/images/anne-physics-tutor-uk.jpg",
     "description": "Former Head of Science and examiner with over 30 years of teaching experience."
-  },
-  {
-    "name": "Aimee",
-    "speciality": "English · Geography · Biology · Media & Film",
-    "level": "GCSE · A-Level",
-    "photo": "https://northwalestutoring.com/images/aimee-tutor-north-wales-tutoring-uk.jpg",
-    "description": "English and Humanities tutor supporting GCSE confidence and exam preparation."
   }
 ]

@@ -49,3 +49,8 @@
 /* Full tutor photographs: square photo areas, no forced crop at any viewport width. */
 .directory-photo{width:100%;height:auto!important;aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden;background:#f5f1fa}
 .directory-photo img{width:100%;height:100%;aspect-ratio:1/1;object-fit:contain!important;object-position:center;display:block}
+
+/* Tutor images on the homepage match the directory: square and never cropped. */
+.tutor-section .tutor-photo{height:auto!important;width:100%;aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden;background:#f5f1fa}
+.tutor-section .tutor-photo img{display:block;width:100%;height:100%;aspect-ratio:1/1;object-fit:contain!important;object-position:center;transition:transform .2s}
+.tutor-section .tutor-card:hover .tutor-photo img{transform:none}
