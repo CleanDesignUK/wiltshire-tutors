@@ -2,7 +2,7 @@
   {
     "slug": "maths",
     "name": "Maths",
-    "title": "Maths tutor in Wiltshire",
+    "title": "Maths tutor for Wiltshire students",
     "subtitle": "GCSE Maths, A-Level Maths, KS3 and primary numeracy",
     "intro": "Build confidence with algebra, fractions, geometry, statistics and problem-solving, then apply those skills to exam-style questions.",
     "topics": [
@@ -17,7 +17,7 @@
   {
     "slug": "physics",
     "name": "Physics",
-    "title": "Physics tutor in Wiltshire",
+    "title": "Physics tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level Physics with specialist online support",
     "intro": "Make difficult concepts easier to visualise, practise calculations and build confidence with practical and written exam questions.",
     "topics": [
@@ -32,7 +32,7 @@
   {
     "slug": "chemistry",
     "name": "Chemistry",
-    "title": "Chemistry tutor in Wiltshire",
+    "title": "Chemistry tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level Chemistry tuition",
     "intro": "Learn the reasons behind reactions and calculations rather than relying on memorised steps alone.",
     "topics": [
@@ -47,7 +47,7 @@
   {
     "slug": "biology",
     "name": "Biology",
-    "title": "Biology tutor in Wiltshire",
+    "title": "Biology tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level Biology tuition",
     "intro": "Organise complex biological knowledge and practise precise scientific explanations for mark-scheme questions.",
     "topics": [
@@ -62,7 +62,7 @@
   {
     "slug": "english",
     "name": "English Language",
-    "title": "English Language tutor in Wiltshire",
+    "title": "English Language tutor for Wiltshire students",
     "subtitle": "KS3, GCSE and IGCSE English Language",
     "intro": "Develop comprehension, analytical writing, vocabulary, structure and confidence with unseen texts.",
     "topics": [
@@ -77,7 +77,7 @@
   {
     "slug": "english-literature",
     "name": "English Literature",
-    "title": "English Literature tutor in Wiltshire",
+    "title": "English Literature tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level English Literature",
     "intro": "Turn knowledge of texts into well-supported arguments with close analysis, quotations and essay planning.",
     "topics": [
@@ -92,7 +92,7 @@
   {
     "slug": "further-maths",
     "name": "Further Maths",
-    "title": "Further Maths tutor in Wiltshire",
+    "title": "Further Maths tutor for Wiltshire students",
     "subtitle": "GCSE Further Maths, A-Level Further Maths and stretch support",
     "intro": "Work through advanced algebra, calculus, mechanics and proof with a specialist tutor.",
     "topics": [
@@ -107,7 +107,7 @@
   {
     "slug": "economics",
     "name": "Economics",
-    "title": "Economics tutor in Wiltshire",
+    "title": "Economics tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level Economics tuition",
     "intro": "Understand economic models and improve the analysis, evaluation and structure of exam responses.",
     "topics": [
@@ -122,7 +122,7 @@
   {
     "slug": "business",
     "name": "Business Studies",
-    "title": "Business Studies tutor in Wiltshire",
+    "title": "Business Studies tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level Business tuition",
     "intro": "Apply business concepts to case studies while developing calculated, justified exam answers.",
     "topics": [
@@ -137,7 +137,7 @@
   {
     "slug": "computer-science",
     "name": "Computer Science",
-    "title": "Computer Science tutor in Wiltshire",
+    "title": "Computer Science tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level Computer Science tuition",
     "intro": "Strengthen programming confidence, computational thinking and theoretical knowledge.",
     "topics": [
@@ -152,7 +152,7 @@
   {
     "slug": "history",
     "name": "History",
-    "title": "History tutor in Wiltshire",
+    "title": "History tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level History tuition",
     "intro": "Develop strong historical knowledge, source evaluation and well-structured essays.",
     "topics": [
@@ -167,7 +167,7 @@
   {
     "slug": "geography",
     "name": "Geography",
-    "title": "Geography tutor in Wiltshire",
+    "title": "Geography tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level Geography tuition",
     "intro": "Interpret maps, data, case studies and geographical processes confidently.",
     "topics": [
@@ -182,7 +182,7 @@
   {
     "slug": "french",
     "name": "French",
-    "title": "French tutor in Wiltshire",
+    "title": "French tutor for Wiltshire students",
     "subtitle": "KS3, GCSE and A-Level French tuition",
     "intro": "Improve listening, speaking, grammar, reading and written communication with personalised language practice.",
     "topics": [
@@ -197,7 +197,7 @@
   {
     "slug": "spanish",
     "name": "Spanish",
-    "title": "Spanish tutor in Wiltshire",
+    "title": "Spanish tutor for Wiltshire students",
     "subtitle": "KS3, GCSE and A-Level Spanish tuition",
     "intro": "Build practical language skills and fluency while preparing for school assessments and exams.",
     "topics": [
@@ -212,7 +212,7 @@
   {
     "slug": "psychology",
     "name": "Psychology",
-    "title": "Psychology tutor in Wiltshire",
+    "title": "Psychology tutor for Wiltshire students",
     "subtitle": "GCSE and A-Level Psychology tuition",
     "intro": "Learn theories, research methods and the structure of clear evaluative answers.",
     "topics": [
@@ -227,7 +227,7 @@
   {
     "slug": "politics",
     "name": "Politics",
-    "title": "Politics tutor in Wiltshire",
+    "title": "Politics tutor for Wiltshire students",
     "subtitle": "A-Level Politics tuition",
     "intro": "Strengthen understanding of UK and comparative politics and develop balanced evaluative arguments.",
     "topics": [

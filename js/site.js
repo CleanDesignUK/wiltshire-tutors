@@ -22,7 +22,7 @@
   });
 
   // All card collections have explicit left/right controls on mobile, not tall stacked lists.
-  document.querySelectorAll('.hub-card-grid, .process-grid, .values-grid, .tutor-page-grid, .pricing-cards, .blog-index-grid').forEach((rail, index) => {
+  document.querySelectorAll('.hub-card-grid, .process-grid, .values-grid, .tutor-page-grid, .pricing-cards, .blog-index-grid, .tutor-directory-grid').forEach((rail, index) => {
     if (!rail.id) rail.id = `mobile-card-rail-${index}`;
     const controls = document.createElement('div');
     controls.className = 'rail-controls mobile-only-arrows';
@@ -53,50 +53,35 @@
     });
   });
 
-  // Form is intentionally AJAX-only: never navigates to Web3Forms' default success page.
-  const forms = [...document.querySelectorAll('[data-enquiry-form]')];
-  const query = new URLSearchParams(window.location.search);
-  const incomingSubject = query.get('subject');
-  if (incomingSubject) {
-    forms.forEach(form => {
-      const textarea = form.querySelector('textarea[name="message"]');
-      if (textarea && !textarea.value) textarea.value = `I'm interested in ${incomingSubject} tutoring. `;
-    });
-  }
-  const notify = async (kind, title, message) => {
-    if (window.Swal && typeof window.Swal.fire === 'function') {
-      return window.Swal.fire({ icon: kind, title, text: message, confirmButtonColor: '#fa3eb2', confirmButtonText: 'OK', customClass: { confirmButton: 'swal-confirm' } });
-    }
-    window.alert(`${title}\n${message}`);
-  };
-  forms.forEach(form => {
-    form.addEventListener('submit', async event => {
-      event.preventDefault();
-      if (!form.reportValidity()) return;
-      const botcheck = form.querySelector('input[name="botcheck"]');
-      if (botcheck?.checked) return;
-      const button = form.querySelector('button[type="submit"]');
-      const status = form.querySelector('.form-feedback');
-      if (button?.disabled) return;
-      const previousLabel = button?.textContent;
-      if (button) { button.disabled = true; button.textContent = 'Sending your enquiry…'; }
-      if (status) { status.classList.remove('visually-hidden'); status.textContent = 'Sending your enquiry…'; }
-      try {
-        const response = await fetch('https://api.web3forms.com/submit', {
-          method: 'POST', headers: { 'Accept': 'application/json' }, body: new FormData(form)
-        });
-        const result = await response.json();
-        if (!response.ok || result.success !== true) throw new Error(result.message || 'Submission could not be completed');
-        form.reset();
-        if (status) status.textContent = 'Your enquiry has been sent successfully.';
-        await notify('success', 'Thank you!', 'Your enquiry has been submitted. Our team will be in touch with you shortly.');
-      } catch (error) {
-        if (status) status.textContent = 'Your enquiry was not sent. Please try again or email us directly.';
-        await notify('error', 'Unable to send your enquiry', 'Please try again or contact wiltshire@nwttutoring.com directly.');
-        console.error('Wiltshire Tutoring form error:', error);
-      } finally {
-        if (button) { button.disabled = false; button.textContent = previousLabel; }
-      }
-    });
+  // Prefill a subject/tutor from links without bypassing the shared security handler.
+  const params = new URLSearchParams(window.location.search);
+  const context = params.get('subject') || params.get('tutor');
+  if (context) document.querySelectorAll('.nwt-secure-form textarea[name="message"]').forEach(field => {
+    if (!field.value.trim()) field.value = `I would like information about ${context} tutoring for my child. `;
   });
+
+  // Filterable optional directory; each card is one accessible, fully clickable link.
+  const directory = document.getElementById('directory-tutors');
+  if (directory) {
+    const search = document.getElementById('directory-search');
+    const level = document.getElementById('directory-level');
+    const subject = document.getElementById('directory-subject');
+    const count = document.getElementById('directory-results');
+    const cards = Array.from(directory.querySelectorAll('[data-tutor-card]'));
+    const filter = () => {
+      const needle = (search?.value || '').toLowerCase().trim();
+      const stage = (level?.value || '').toLowerCase();
+      const topic = (subject?.value || '').toLowerCase();
+      let shown = 0;
+      cards.forEach(card => {
+        const haystack = `${card.dataset.name || ''} ${card.dataset.subjects || ''} ${card.dataset.levels || ''}`;
+        const visible = (!needle || haystack.includes(needle)) && (!stage || (card.dataset.levels || '').includes(stage)) && (!topic || (card.dataset.subjects || '').includes(topic));
+        card.hidden = !visible;
+        if (visible) shown++;
+      });
+      if (count) count.textContent = `${shown} tutor${shown === 1 ? '' : 's'} shown. Ask us about current availability.`;
+    };
+    [search, level, subject].forEach(control => control?.addEventListener('input', filter));
+    filter();
+  }
 })();

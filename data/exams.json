@@ -2,7 +2,7 @@
   {
     "slug": "primary",
     "name": "Primary School",
-    "title": "Primary tutoring in Wiltshire",
+    "title": "Primary tutoring for Wiltshire students",
     "subtitle": "KS1 and KS2 Maths and English tutoring",
     "intro": "Support foundational confidence, understanding and independent working habits before secondary school.",
     "topics": [
@@ -17,7 +17,7 @@
   {
     "slug": "ks3",
     "name": "KS3",
-    "title": "KS3 tutoring in Wiltshire",
+    "title": "KS3 tutoring for Wiltshire students",
     "subtitle": "Year 7, Year 8 and Year 9 online tutors",
     "intro": "Bridge the move into secondary subjects and secure the knowledge needed for confident GCSE study.",
     "topics": [
@@ -32,7 +32,7 @@
   {
     "slug": "sats",
     "name": "SATs",
-    "title": "SATs tutors in Wiltshire",
+    "title": "SATs tutors for Wiltshire students",
     "subtitle": "Year 6 SATs Maths and English preparation",
     "intro": "Prepare for Key Stage 2 assessments with approachable, structured practice and a sensible revision plan.",
     "topics": [
@@ -47,7 +47,7 @@
   {
     "slug": "11-plus",
     "name": "11+",
-    "title": "11 Plus tutors in Wiltshire",
+    "title": "11 Plus tutors for Wiltshire students",
     "subtitle": "11+ entrance exam and grammar school preparation",
     "intro": "Build strong reasoning, English and Maths skills and practise unfamiliar question formats.",
     "topics": [
@@ -62,7 +62,7 @@
   {
     "slug": "13-plus",
     "name": "13+",
-    "title": "13 Plus tutors in Wiltshire",
+    "title": "13 Plus tutors for Wiltshire students",
     "subtitle": "13+ common entrance and school entrance support",
     "intro": "Prepare for school-specific 13+ tests with individual subject support and exam practice.",
     "topics": [
@@ -77,7 +77,7 @@
   {
     "slug": "gcse",
     "name": "GCSE",
-    "title": "GCSE tutors in Wiltshire",
+    "title": "GCSE tutors for Wiltshire students",
     "subtitle": "GCSE Maths, English, Physics, Chemistry, Biology and more",
     "intro": "Get focused GCSE subject support, targeted revision and exam-style practice for Year 10 and Year 11.",
     "topics": [
@@ -92,7 +92,7 @@
   {
     "slug": "igcse",
     "name": "IGCSE",
-    "title": "IGCSE tutors in Wiltshire",
+    "title": "IGCSE tutors for Wiltshire students",
     "subtitle": "International GCSE Maths, English and Science tutoring",
     "intro": "Prepare for Pearson Edexcel and Cambridge International IGCSEs with syllabus-matched teaching.",
     "topics": [
@@ -107,7 +107,7 @@
   {
     "slug": "a-level",
     "name": "A-Level",
-    "title": "A-Level tutors in Wiltshire",
+    "title": "A-Level tutors for Wiltshire students",
     "subtitle": "A-Level Maths, Physics, Chemistry, Biology, English and more",
     "intro": "Develop deeper subject understanding and exam technique for Year 12 and Year 13.",
     "topics": [
@@ -122,7 +122,7 @@
   {
     "slug": "ucat",
     "name": "UCAT",
-    "title": "UCAT tutors in Wiltshire",
+    "title": "UCAT tutors for Wiltshire students",
     "subtitle": "UCAT medical and dental admissions test preparation",
     "intro": "Build familiarity with the UCAT sections, efficient decision-making and timed test practice.",
     "topics": [
@@ -137,7 +137,7 @@
   {
     "slug": "tmua",
     "name": "TMUA",
-    "title": "TMUA tutors in Wiltshire",
+    "title": "TMUA tutors for Wiltshire students",
     "subtitle": "TMUA mathematics admissions test preparation",
     "intro": "Practise mathematical reasoning, algebraic fluency and unfamiliar problems under timed conditions.",
     "topics": [
