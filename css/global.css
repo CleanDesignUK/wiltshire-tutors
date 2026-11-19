@@ -32,3 +32,10 @@
 @media(max-width:360px){.navbar .dropdown-menu.show{grid-template-columns:1fr}}
 /* Pink backgrounds for key enquiry buttons use white text at every state. */
 .btn-primary-custom,.btn-primary-custom:visited,.btn-primary-custom *{color:#fff!important}.btn-primary-custom:hover,.btn-primary-custom:focus-visible,.btn-primary-custom:active{color:#fff!important}
+
+/* WhatsApp live chat pill, visible on every page without relying on script. */
+.whatsapp-float{display:inline-flex!important;flex-direction:row;align-items:center;justify-content:center;gap:10px;width:auto!important;height:57px!important;min-width:0;padding:0 18px;border-radius:999px!important;white-space:nowrap;font-weight:800;text-decoration:none;max-width:calc(100vw - 24px);background:var(--pink)!important;color:#fff!important}
+.whatsapp-float i{font-size:1.65rem;line-height:1;flex:0 0 auto}
+.whatsapp-float::after{content:"Live chat with our team";display:inline-block;color:#fff;font-family:Manrope,Arial,sans-serif;font-size:.84rem;font-weight:800;line-height:1.2;white-space:nowrap}
+.whatsapp-float:hover,.whatsapp-float:focus-visible{background:var(--pink)!important;color:#fff!important}
+@media(max-width:767px){.whatsapp-float{right:12px;padding:0 13px;height:53px!important;gap:8px}.whatsapp-float::after{font-size:.76rem}.whatsapp-float i{font-size:1.5rem}}

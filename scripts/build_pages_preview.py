@@ -3,10 +3,13 @@ from pathlib import Path
 import json
 import re
 import shutil
+import os
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / '_pages'
 BASE = '/wiltshire-tutors'
+# Content-hashed preview asset URLs avoid stale CSS and JS after each update.
+ASSET_VERSION = os.environ.get('GITHUB_SHA', 'preview')[:12]
 PUBLIC_DIRS = ('areas', 'assets', 'blog', 'css', 'exams', 'js', 'subjects', 'vendor')
 
 if OUTPUT.exists():
@@ -26,6 +29,9 @@ css_path = re.compile(r'''url\(\s*(?P<quote>["']?)/(?!/)''', re.I)
 for page in OUTPUT.rglob('*.html'):
     html = page.read_text(encoding='utf-8')
     html = attribute_path.sub(lambda m: m['start'] + BASE + '/', html)
+    # Each deployment gets fresh stylesheet/script URLs for reliable mobile rendering.
+    for relative in ('css/global.css', 'css/pages.css', 'css/icons.css', 'js/site.js', 'js/form-security.js'):
+        html = html.replace(f'{BASE}/{relative}"', f'{BASE}/{relative}?v={ASSET_VERSION}"')
     # Prevent test-domain pages competing with the real domain for organic search.
     html = html.replace('</head>', '  <meta name="robots" content="noindex, nofollow">\n</head>', 1)
     # Share preview URLs and social images from Pages, not an unpublished production domain.

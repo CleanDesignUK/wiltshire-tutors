@@ -54,3 +54,9 @@
 .tutor-section .tutor-photo{height:auto!important;width:100%;aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden;background:#f5f1fa}
 .tutor-section .tutor-photo img{display:block;width:100%;height:100%;aspect-ratio:1/1;object-fit:contain!important;object-position:center;transition:transform .2s}
 .tutor-section .tutor-card:hover .tutor-photo img{transform:none}
+
+/* Homepage tutor portraits: a true 1:1 frame with the entire source image visible.
+   Absolute positioning avoids the earlier img/height interaction causing crops. */
+.tutor-section .tutor-card .tutor-photo--square{position:relative;display:block!important;width:100%;height:auto!important;aspect-ratio:1/1!important;flex:0 0 auto;overflow:hidden;background:#f5f1fa}
+.tutor-section .tutor-card .tutor-photo--square>img{position:absolute;inset:0;display:block;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center center!important;transform:none!important}
+.tutor-section .tutor-card:hover .tutor-photo--square>img{transform:none!important}
